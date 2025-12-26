@@ -4,7 +4,7 @@ on:
     branches: [ main ]
 env:
   REGISTRY: docker.io
-  IMAGENAME: ${{ secrets.DOCKERUSERNAME }}/my-flask-app
+  IMAGENAME: ${{ secrets.DOCKER_USERNAME }}/my-flask-app
 jobs:
   build:
     runs-on: ubuntu-latest
